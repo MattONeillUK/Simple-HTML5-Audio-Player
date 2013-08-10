@@ -1,8 +1,8 @@
 ﻿/* 
  * ---------------------------------------- *
  * Simple HTML5 Audio Player                *
- * JavaScript                               *
- * v1.0.0                                   *
+ * CSS                                      *
+ * v1.0.1-beta                              *
  * Matt O'Neill | www.matt-oneill.co.uk     *
  * ---------------------------------------- *
  */
@@ -16,13 +16,11 @@
 
 /* loading */
 .audio-player .loading { color: #141414; font-size: 25px; font-weight: bold; text-align: center; padding: 5px 0; width: 100%; float: left; text-shadow: 0px 1px 1px #919191; }
-.audio-player .loading span.loader { }
 
 /* controls */
 .audio-player .controls { float: left; width: 100%; display: none; }
 .audio-player .controls .play, .audio-player .controls .stop, .audio-player .controls .audio-progress { cursor: pointer; }
 .audio-player .controls > span { width: 45px; height: 50px; display: block; float: left; background: url(src/controls.png); }
-.audio-player .controls .play { }
 .audio-player .controls .play:hover { background-position: 0 -50px; }
 .audio-player .controls .play.playing { background-position: -50px 0; }
 .audio-player .controls .play.playing:hover { background-position: -50px -50px; }

@@ -1,16 +1,15 @@
 ﻿<!-- 
  * ---------------------------------------- *
  * Simple HTML5 Audio Player                *
- * JavaScript                               *
- * v1.0.0                                   *
+ * HTML                               		*
+ * v1.0.1-beta                              *
  * Matt O'Neill | www.matt-oneill.co.uk     *
  * ---------------------------------------- *
  -->
 
 
 <!-- mark up -->
-<div class="audio-player">
-</div>
+<div class="audio-player" id="audio-player-1"></div>
 
 <!-- requires jQuery UI -->
 <script src="/dependencies/jquery-1.8.3.js" type="text/javascript"></script>
@@ -19,9 +18,10 @@
 <link rel="stylesheet" href="/simple-html5-audio-player.css">
 <script src="/simple-html5-audio-player.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-    /* place inside document ready function */
-    $(".audio-player").audioPlayer({
-        mp3Src: "src/Test1.mp3",
-        oggSrc: "src/Test1.ogg"
-    ]);
+	/* place inside document ready function */
+	$("#audio-player-1").audioPlayer({
+		mp3Src: "src/Test1.mp3",
+		oggSrc: "src/Test1.ogg",
+		autoPlay: false
+	});
 </script>

@@ -2,7 +2,7 @@
  * ---------------------------------------- *
  * Simple HTML5 Audio Player                *
  * JavaScript                               *
- * v1.0.0                                   *
+ * v1.0.1-beta                              *
  * Matt O'Neill | www.matt-oneill.co.uk     *
  * ---------------------------------------- *
  */
@@ -49,6 +49,9 @@
                             aP.s.defVol = ckeDef.vol;
                             aP.mdl.setVol(aP.s.defVol);
                             aP.vw.cntTme(aP.mdl.toTme(aP.s.pos, aP.aElem.duration));
+                        }
+                        if (ext.autoPlay) {
+                            aP.mdl.play();
                         }
                     },
                     play: function () {

@@ -1,0 +1,39 @@
+﻿{
+    "name": "simple-html5-music-player",
+    "title": "Simple HTML5 Music Player",
+    "description": "Implement a HTML5 audio player anywhere on a site simply by providing two audio format sources, customise appearance and style as much as you want. Currently no iOS support",
+    "keywords": [
+        "HTML5",
+        "Audio",
+        "Music",
+        "Player",
+		"Sound",
+		"Webaudio",
+		"Simple"
+    ],
+    "version": "v1.0.1-beta",
+    "author": {
+        "name": "Matt O'Neill",
+        "url": "http://www.matt-oneill.co.uk"
+    },
+    "maintainers": [
+        {
+            "name": "1st Creative Solutions",
+            "email": "design@1stcreativesolutions.co.uk",
+            "url": "http://www.1stcreativesolutions.co.uk"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/MattONeillUK/Simple-HTML5-Audio-Player/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "",
+    "homepage": "https://github.com/MattONeillUK/Simple-HTML5-Audio-Player",
+    "docs": "",
+    "download": "http://code.jquery.com/simple-music-player",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
