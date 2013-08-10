@@ -2,7 +2,7 @@
  * ---------------------------------------- *
  * Simple HTML5 Audio Player                *
  * JavaScript                               *
- * v1.0.2-beta                              *
+ * v1.0.2                              *
  * Matt O'Neill | www.matt-oneill.co.uk     *
  * ---------------------------------------- *
  */
